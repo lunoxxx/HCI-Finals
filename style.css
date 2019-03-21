@@ -6,10 +6,55 @@
 
 header
 {
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg1.gif);
-  height: 100vh;
-  background-size: 100% 100%;
-  background-position: center;
+  background-image: url(bg1.jpg);
+  background-color: #EDEAE5;
+  background-size: contain;
+  background-position: 50px 5px;
+}
+
+.row
+{
+  height: 80px;
+  top: 30px;
+}
+
+h1
+{
+  color: black;
+  background-color: none;
+  padding-top: 0;
+  padding-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Brush Script MT";
+  letter-spacing: 0.4em;
+  font-size: 60px;
+  text-align: center;
+  top: 200px;
+  animation: text 3s 1;
+}
+
+
+@keyframes text
+{
+  0%{
+    color: black;
+  }
+  30%
+  {
+    color: #fab1a0;
+    letter-spacing: 25px;
+  }
+  50%
+  {
+    color: #81ecec;
+    letter-spacing: 50px;
+  }
+  80%
+  {
+    color: #a29bfe;
+    letter-spacing: 70px;
+  }
 }
 
 .main-nav
@@ -17,33 +62,47 @@ header
   float: right;
   list-style: none;
   margin-top: 30px;
+  display: flex;
 }
 
 .main-nav li
 {
   display: inline-block;
+  transition: 0.5s;
+  margin: 0 20px;
 }
 
 .main-nav li a
 {
   color: white;
+  position: relative;
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Times New Roman", sans-serif;
   font-size: 16px;
-  background-color: black;
-  opacity: 0.5;
+  background-color: #FCE181;
+  opacity: 1;
 
+}
+
+.main-nav:hover li a
+{
+  transform: scale(1.5);
+  opacity: 2;
+  filter: blur(5px);
 }
 
 .main-nav li.active a
 {
-  border: 3px solid #ff7675;
+  border: 3px solid #F5998E;
 }
 
 .main-nav li a:hover
 {
-  border: 3px solid #ff7675;
+  border: 3px solid #9FEDD7;
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0);
 }
 
 .logo img
@@ -58,13 +117,13 @@ body
   font-family: monospace;
 }
 
-.row
+/*.row
 {
   max-width: 1200px;
   margin: auto;
   margin-top: 5px;
 }
-
+*/
 .eme
 {
   position: absolute;
@@ -75,77 +134,45 @@ body
   text-align: center;
 }
 
-h1
-{
-  color: black;
-  background-color: none;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Brush Script MT";
-  letter-spacing: 0.4em;
-  font-size: 60px;
-  text-align: center;
-  margin-top: 200px;
-  animation: text 1s 1;
-}
-
-@keyframes text
-{
-  0%{
-    color: black;
-  }
-  30%
-  {
-    letter-spacing: 25px;
-  }
-  50%
-  {
-    letter-spacing: 50px;
-  }
-  85%
-  {
-    letter-spacing: 80px;
-  }
-}
-
 .button
 {
-  margin-top: 50px;
+  margin-top: 350px;
   margin-left: 0px;
-
+  top: 150px;
 }
 
 .btn
 {
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 10px 30px;
   text-decoration: none;
   padding: 10px 30px;
   color: white;
   margin-right: 5px;
   font-size: 15px;
+
   text-transform: uppercase;
+
 }
 
 .btn-one
 {
-  background-color: orange;
+  background-color: #ff7675;
   font-family: "Roboto", sans-serif;
   margin-right: 60px;
+
 }
 
 .btn-two
 {
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  background-color: #636e72;
   opacity: 0.9;
 }
 
 .btn-two:hover
 {
-  background-color: #FFA500;
+  background-color: #81ecec;
   transition: all 0.5s ease- in;
 }
 

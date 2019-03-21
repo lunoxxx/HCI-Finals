@@ -4,6 +4,41 @@ body{
   background: url(bg1.jpg) no-repeat;
   background-size: 100% 100%;
 }
+/*h1
+{
+  color: black;
+  background-color: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Brush Script MT";
+  letter-spacing: 0.4em;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 200px;
+  animation: text 1s 1;
+}
+
+@keyframes text
+{
+  0%{
+    color: black;
+  }
+  30%
+  {
+    letter-spacing: 25px;
+  }
+  50%
+  {
+    letter-spacing: 50px;
+  }
+  85%
+  {
+    letter-spacing: 80px;
+  }
+}
+*/
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
