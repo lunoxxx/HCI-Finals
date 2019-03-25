@@ -6,6 +6,48 @@
 }
 
 
+h1
+{
+	
+	background-color: none;
+  	padding-top: 6px;
+  	padding-bottom: 6px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-family: "Brush Script MT";
+  	letter-spacing: 0.4em;
+  	font-size: 60px;
+  	text-align: center;
+  	margin-top: 20px;
+  	animation: text 2s 1;
+}
+
+p
+{
+  background-color: white;
+  background-size: cover;
+}
+
+@keyframes text
+{
+  0%{
+    color: black;
+  }
+  30%
+  {
+    letter-spacing: 25px;
+  }
+  50%
+  {
+    letter-spacing: 50px;
+  }
+  85%
+  {
+    letter-spacing: 80px;
+  }
+
+}
+
 .contact-section
 {
 	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg3.jpg) center;

@@ -17,6 +17,49 @@ body
 	margin-top: 100px;
 
 }
+
+h1
+{
+	
+	background-color: white;
+  	padding-top: 6px;
+  	padding-bottom: 0;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-family: "Brush Script MT";
+  	letter-spacing: 0.4em;
+  	font-size: 60px;
+  	text-align: center;
+  	margin-top: 20px;
+  	animation: text 2s 1;
+}
+
+p
+{
+  background-color: white;
+  background-size: cover;
+}
+
+@keyframes text
+{
+  0%{
+    color: black;
+  }
+  30%
+  {
+    letter-spacing: 25px;
+  }
+  50%
+  {
+    letter-spacing: 50px;
+  }
+  85%
+  {
+    letter-spacing: 80px;
+  }
+
+}
+
 h2
 {
 	text-align: center;
