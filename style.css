@@ -4,25 +4,27 @@
   padding: 0;
 }
 
-header
+.container
 {
-  background-image: url(bg1.jpg);
-  background-color: #EDEAE5;
-  background-size: contain;
-  background-position: 50px 5px;
+  width: 1170px;
+  margin: auto;
+
 }
 
-.row
+header
 {
-  height: 80px;
-  top: 30px;
+  background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg1.jpg) center;
+  z-index: -5;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
 
 h1
 {
   color: black;
-  background-color: none;
-  padding-top: 0;
+  background-color: white;
+  padding-top: 30px;
   padding-bottom: 6px;
   text-align: center;
   text-transform: uppercase;
@@ -30,35 +32,46 @@ h1
   letter-spacing: 0.4em;
   font-size: 60px;
   text-align: center;
-  top: 200px;
-  animation: text 3s 1;
+  top: 150px;
+  animation: text 2s 1;
 }
-
 
 @keyframes text
 {
   0%{
-    color: black;
+    color: #dfe6e9;
   }
   30%
   {
-    color: #fab1a0;
+    color: #b2bec3;
     letter-spacing: 25px;
   }
   50%
   {
-    color: #81ecec;
+    color: #636e72;
     letter-spacing: 50px;
   }
   80%
   {
-    color: #a29bfe;
+    color: #2d3436;
     letter-spacing: 70px;
   }
 }
 
+p
+{
+  background-color: white;
+  background-size: cover;
+}
+
+.row
+{
+  float: right;
+}
+
 .main-nav
 {
+  position: relative;
   float: right;
   list-style: none;
   margin-top: 30px;
@@ -121,19 +134,22 @@ body
 
 .buttons
 {
+  float: inherit;
   position: absolute;
   width: 500px;
-  margin-left: 0;
   margin-top: 8px;
-  margin-left: 405px;
+  margin-left: 40px;
   text-align: center;
 }
 
 .button
 {
-  margin-top: 350px;
+  position: absolute;
+  margin-top: 35px;
   margin-left: 0px;
   top: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
 }
 
 .btn
@@ -154,15 +170,20 @@ body
 
 .btn-one
 {
-  border: 2px solid pink;
-  background-color: #fab1a0;
-  margin-right: 60px;
+  color: #fff;
+  z-index: -3;
 
 }
 
 .btn-two
 {
   color: #fff;
+  z-index: -3;
+}
+
+.btn-one:hover
+{
+  color: #3498db;
 }
 
 .btn-two:hover
@@ -182,6 +203,13 @@ body
   transition: 1s;
 }
 
+.btn-one::before
+{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+  height: 100%;
+}
+
 .btn-two::before
 {
   bottom: 0;
@@ -189,17 +217,14 @@ body
   height: 100%;
 }
 
-.btn-two:hover::before
+.btn-one:hover::before
 {
   height: 0%;
 }
 
-
-
-
-
-
-
-
+.btn-two:hover::before
+{
+  height: 0%;
+}
 
 
