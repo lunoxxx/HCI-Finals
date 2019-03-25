@@ -64,7 +64,18 @@ h1
 {
 	float: right;
 	font-size: 12px;
-	color: blue;
+	color: orange;
+	
+}
+
+.fa-thumbs-up
+{
+	padding: 10px 10px 0px 20px;
+}
+
+.fa-comment-o
+{
+	padding: 10px 10px 0px 20px;
 }
 
 .blog-text
@@ -95,6 +106,9 @@ h1
 	font-size: 14px;
 	color: #fff;
 	border: none! important;
+	transition: 1s;
+	position: relative;
+	overflow: hidden;
 }
 
 .read-more-btn: hover
