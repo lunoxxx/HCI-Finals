@@ -8,19 +8,20 @@
 
 h1
 {
-	
-	background-color: none;
-  	padding-top: 6px;
-  	padding-bottom: 6px;
-  	text-align: center;
-  	text-transform: uppercase;
-  	font-family: "Brush Script MT";
-  	letter-spacing: 0.4em;
-  	font-size: 60px;
-  	text-align: center;
-  	margin-top: 20px;
-  	animation: text 2s 1;
+  
+  background-color: white;
+    padding-top: 6px;
+    padding-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Brush Script MT";
+    letter-spacing: 0.4em;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    animation: text 2s 1;
 }
+
 
 p
 {
