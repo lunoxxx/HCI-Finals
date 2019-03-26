@@ -7,7 +7,7 @@ body
 
 h1
 {
-	
+
 	background-color: none;
   	padding-top: 6px;
   	padding-bottom: 6px;
@@ -24,21 +24,23 @@ h1
 @keyframes text
 {
   0%{
-    color: black;
+    color: #dfe6e9;
   }
   30%
   {
+    color: #b2bec3;
     letter-spacing: 25px;
   }
   50%
   {
+    color: #636e72;
     letter-spacing: 50px;
   }
-  85%
+  80%
   {
-    letter-spacing: 80px;
+    color: #2d3436;
+    letter-spacing: 70px;
   }
-
 }
 
 .single-blog
@@ -99,7 +101,7 @@ h1
 
 .read-more-btn
 {
-	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	background-image: linear-gradient(to right,  #3498db, blue);
 	padding: 5px 12px 8px;
 	border-radius: 20px;
 	line-height: 20px;
@@ -113,7 +115,7 @@ h1
 
 .read-more-btn: hover
 {
-	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	background-image: linear-gradient(to right, #3498db, blue);
 	text-decoration: none;
 	color: #fff;
 }

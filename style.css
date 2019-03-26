@@ -4,20 +4,28 @@
   padding: 0;
 }
 
+
+
+body
+{
+  font-family: monospace;
+}
+
+
+header
+{
+  background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg1.jpg) center;
+  display: block;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
 .container
 {
   width: 1170px;
   margin: auto;
 
-}
-
-header
-{
-  background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg1.jpg) center;
-  z-index: -5;
-  height: 100vh;
-  background-size: cover;
-  position: relative;
 }
 
 h1
@@ -64,6 +72,12 @@ p
   background-size: cover;
 }
 
+iframe
+{
+  padding-top: 80px;
+}
+
+
 .row
 {
   float: right;
@@ -74,7 +88,7 @@ p
   position: relative;
   float: right;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
 
 }
@@ -119,37 +133,50 @@ p
   filter: blur(0);
 }
 
-.logo img
+img
 {
-  width: 150px;
-  height: auto;
-  float: left;
+  width: 475px;
+  height: 260px;
+  position: center;
+  margin: -475px 0px 0px 490px;
 }
 
-body
-{
-  font-family: monospace;
-}
 
 
 .buttons
 {
-  float: inherit;
-  position: absolute;
+  float: center;
   width: 500px;
   margin-top: 8px;
   margin-left: 40px;
   text-align: center;
+  visibility: visible;
 }
 
-.button
+.button1
 {
+  float: center;
+  position: center;
+  margin: 30px 30px 0px 210px;
+
+
+}
+
+.button2
+{
+  float: right;
   position: absolute;
-  margin-top: 35px;
-  margin-left: 0px;
-  top: 150px;
-  padding-right: 150px;
-  padding-bottom: 50px;
+  margin: -82px 5px 30px 870px;
+}
+
+.button a
+{
+  font-size: 16px;
+  display: block;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .btn
@@ -166,29 +193,32 @@ body
   transition: 0.8s;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn-one
 {
-  color: #fff;
-  z-index: -3;
+  color: white;
 
 }
 
 .btn-two
 {
-  color: #fff;
-  z-index: -3;
+  color: white;
+
 }
 
 .btn-one:hover
 {
   color: #3498db;
+  background-color: #fff;
+
 }
 
 .btn-two:hover
 {
   color: #3498db;
+  background-color: #fff;
 }
 
 .btn::before
@@ -200,7 +230,7 @@ body
   height: 0%;
   background: #3498db;
   z-index: -1;
-  transition: 1s;
+  transition: 1.5s;
 }
 
 .btn-one::before

@@ -29,21 +29,23 @@ p
 @keyframes text
 {
   0%{
-    color: black;
+    color: #dfe6e9;
   }
   30%
   {
+    color: #b2bec3;
     letter-spacing: 25px;
   }
   50%
   {
+    color: #636e72;
     letter-spacing: 50px;
   }
-  85%
+  80%
   {
-    letter-spacing: 80px;
+    color: #2d3436;
+    letter-spacing: 70px;
   }
-
 }
 
 .box{
