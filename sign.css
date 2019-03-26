@@ -68,13 +68,14 @@ h2
 	font-family: "Arial Rounded MT Bold";
 	font-size: 30px;
 }
+
 input[type=text], input[type=password]
 {
 	width: 100%;
 	font-size: 15px;
 	font-family: "Roboto", sans-serif;
 	box-sizing: border-box;
-	padding: 12px 5px;
+	padding: 10px 5px;
 	background: rgba(0,0,0,0.10);
 	outline: none;
 	border: none;

@@ -57,41 +57,65 @@ p
   margin: auto;
   margin-top: 5%;
   color: white;
-  font-family: "Arial Rounded MT Bold";
+  font-family: "Brush Script MT";
 }
+
 .box-img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 225px;
 }
-.box h1{
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
+
+.about-section
+{
+  width: 100%;
+  background: #f1f1f1;
+  padding: 40px 0;
 }
-.box h5{
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
-}
-.box p{
-  text-align: justify;
-}
-ul{
-  margin: 0;
-  padding: 0;
-}
-.box li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.box li a{
+
+
+h2
+{
+  text-align: center;
+  font-family: "Brush Script MT";
   color: white;
-  text-decoration: none;
-  font-size: 160px;
-  transition: all ease-in-out 250ms;
+  background-color: black;
 }
-.box li a:hover{
-  color: #b9b9b9;
+
+.border
+{
+  width: 100px;
+  height: 10px;
+  background: #fdcb6e;
+  margin: 20px auto;
+  font-size: 30px;
 }
+}
+
+.about-section-row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-section-col
+{
+  flex: 50%;
+  background-color: #b2bec3;
+}
+
+.about h5
+{
+  text-align: center;
+  padding-right: 30px;
+}
+
+.about p
+{
+  text-align: center;
+  padding-right: 30px;
+  background-color: #b2bec3;
+}
+
+
+
